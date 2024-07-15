@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITestSuite">
+    <test name="API Tests">
+        <classes>
+            <class name="com.example.api.tests.RandomCatFactsTest"/>
+            <class name="com.example.api.tests.CurrentBTCPriceTest"/>
+            <class name="com.example.api.tests.GetCurrentIPTest"/>
+        </classes>
+    </test>
+</suite>

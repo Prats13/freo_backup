@@ -1,0 +1,48 @@
+{
+  "name": "Random_cat_facts",
+  "method": "GET",
+  "url": "https://catfact.ninja/fact",
+  "headers": [],
+  "body": null,
+  "expected_response": {}
+}
+{
+  "name": "Current_BTC_price",
+  "method": "GET",
+  "url": "https://api.coindesk.com/v1/bpi/currentprice.json",
+  "headers": [],
+  "body": null,
+  "expected_response": {}
+}
+{
+  "name": "Get_Current_IP",
+  "method": "GET",
+  "url": "https://api.ipify.org/?format=json",
+  "headers": [],
+  "body": null,
+  "expected_response": {}
+}
+{
+  "name": "Creating_a_new_employee",
+  "method": "POST",
+  "url": "https://dummy.restapiexample.com/api/v1/create",
+  "headers": [],
+  "body": "{\r\n    \"name\":\"test\",\r\n    \"salary\":\"123\",\r\n    \"age\":\"23\"\r\n}",
+  "expected_response": {}
+}
+{
+  "name": "Update_Employee",
+  "method": "PUT",
+  "url": "https://dummy.restapiexample.com/api/v1/update/21/",
+  "headers": [],
+  "body": "{\r\n    \"name\":\"test\",\r\n    \"salary\":\"123\",\r\n    \"age\":\"23\"\r\n}",
+  "expected_response": {}
+}
+{
+  "name": "Delete_Employee",
+  "method": "DELETE",
+  "url": "https://dummy.restapiexample.com/api/v1/delete/2",
+  "headers": [],
+  "body": null,
+  "expected_response": {}
+}

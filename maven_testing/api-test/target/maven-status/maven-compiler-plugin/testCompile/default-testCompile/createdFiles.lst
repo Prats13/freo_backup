@@ -1,0 +1,4 @@
+com\example\api\tests\CurrentBTCPriceTest.class
+com\example\api\tests\RandomCatFactsTest.class
+com\example\api\tests\GetCurrentIPTest.class
+com\example\api\base\BaseTest.class
